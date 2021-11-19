@@ -1,0 +1,70 @@
+/* 320,425,768,1024 */
+
+.loginContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.loginBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.loginBg .starWide,
+.loginBg .starThin,
+.loginBg .spring,
+.loginBg .starCombo {
+  position: absolute;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 320px) {
+  .loginBg {
+    width: 100%;
+  }
+
+  .loginBg .starWide {
+    top: -4%;
+    width: 22%;
+    height: 22%;
+    left: 7%;
+  }
+
+  .loginBg .starThin {
+    width: 15%;
+    height: 15%;
+    top: 10%;
+    right: 8%;
+  }
+
+  .loginBg .spring {
+    top: 10%;
+    height: 90%;
+  }
+
+  .loginBg .starCombo {
+    width: 25%;
+    height: 25%;
+    bottom: 0;
+    left: 15%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .loginBg {
+    max-width: 460px;
+    filter: drop-shadow(0px 0px 10px #808080);
+  }
+
+  .loginBg .spring {
+    transform: scale(1.1);
+  }
+}

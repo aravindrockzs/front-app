@@ -1,0 +1,31 @@
+.homeContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.homeBg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--backgrey);
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 320px) {
+  .homeBg {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .homeBg {
+    max-width: 460px;
+  }
+}

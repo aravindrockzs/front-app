@@ -1,0 +1,132 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #f9f9f9;
+  --lightgrey: #727272;
+  --backgrey: #f2f2f2;
+}
+
+* {
+  /* outline: 1px solid #f00 !important; */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: 'FuturaPT Bold';
+  font-style: normal;
+  src: url(./fonts/FuturaPTBold.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT Bold Oblique';
+  src: url(./fonts/FuturaPTBoldOblique.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT Book';
+  src: url(./fonts/FuturaPTBook.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT Book Oblique';
+  src: url(./fonts/FuturaPTBookOblique.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT CondBold';
+  src: url(./fonts/FuturaPTCondBold.otf);
+}
+@font-face {
+  font-family: 'FuturaPT';
+  src: url(./fonts/FuturaPTCondBoldOblique.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url(./fonts/FuturaPTCondBook.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url(./fonts/FuturaPTCondBookOblique.otf);
+}
+@font-face {
+  font-family: 'FuturaPT Extra Bold';
+  src: url(./fonts/FuturaPTCondExtraBold.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url(./fonts/FuturaPTCondExtraBoldOblique.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url(./fonts/FuturaPTCondMedium.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url(./fonts/FuturaPTCondMediumOblique.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT Demi';
+  src: url(./fonts/FuturaPTDemi.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url(./fonts/FuturaPTDemiOblique.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url(./fonts/FuturaPTExtraBoldOblique.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT ExtraBold';
+  src: url(./fonts/FuturaPTExtraBold.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url(./fonts/FuturaPTHeavy.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url(./fonts/FuturaPTHeavyOblique.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT Light';
+  src: url(./fonts/FuturaPTLight.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT LightOblique';
+  src: url(./fonts/FuturaPTLightOblique.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT Medium';
+  src: url(./fonts/FuturaPTMedium.otf);
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  src: url(./fonts/FuturaPTMediumOblique.otf);
+}
